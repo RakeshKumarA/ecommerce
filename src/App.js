@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
 
 function App() {
   return (
-    <div>
-      <h1>App Component</h1>
+    <div className="parent">
+      <Header />
+      <main>
+        <MainContent />
+      </main>
+      <footer>MobileIncubator.com - All Rights Reserved</footer>
     </div>
   );
 }
